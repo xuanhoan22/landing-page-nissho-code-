@@ -1,0 +1,35 @@
+#container{
+    width:600px;
+    margin:0 auto;
+}
+#heared{
+    width:560px;
+    padding:20px;
+    color:#ffffff;
+    background-color:#7c79fd;
+    font-size:xx-large;
+    text-align:center;
+}
+#menu{
+    width:80;
+    height:300px;
+    padding:10px;
+    float:left;
+    background-color:#ccff66;
+}
+#contents{
+    width:480px;
+    height:300px;
+    padding:10px;
+    float:left;
+    background-color:#eeeeee;
+    font-size:x-small;
+}
+#footer{
+    background-color:#eeeeee;
+    font-size:x-small;
+    text-align:center;
+    height: 50px;
+    line-height:50px;
+    clear:both;
+}

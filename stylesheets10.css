@@ -1,0 +1,155 @@
+@charset "UTF-8";
+/*==================
+スマホを基本設計にする
+-~479px：スマートフォン縦
+-480px~599px：タブレット
+-600px~959px:タブレット
+-960px~1279px:小型PC
+-1280px~:大型PC
+================*/
+
+html{
+    font-size:100%;
+}
+
+body{
+    color:#24292e;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    font-size:1.3rem;
+}
+
+img{
+max-width:100%;/*スマホサイズでも画像が縮小される。*/
+}
+
+li{
+    list-style:none;
+    font-size:1.2rem;
+}
+
+.site-title{
+    line-height:1px;
+    font-weight:600;
+    font-size:2.4rem;
+}
+
+.site-title a{
+    color:#24292e;
+
+}
+/*------------------------
+ヘッダ-
+--------------------------*/
+
+.site-title a{
+    color:#24292e;
+
+}
+
+.sec-title{
+    font-size:1.5rem;
+    text-align:center;
+    margin: bottom 65px;
+}
+/*------------------------------------
+header li a{
+color:#24292e;
+transition:all0.3s;
+}
+
+#header li a:hover{
+oppacity:0.5;
+}
+
+#header li img.icon{
+width:30px;
+}
+/* main*/
+#mainvisua{
+    margin-bottom: 80px;
+}
+
+#mainvisual img{
+    width:100%;
+    max-width:1920px;
+    height:400px;
+    object-fit:cover;
+}
+
+/*---------------------------------------
+sp
+#mainvisual img{
+width:100%;
+max-width:1920px;
+height:400px;
+object-fit: cover;
+}
+
+/*--------------------------------------
+About
+---------------------------------------*/
+#about ul{
+    margin-bottom:30px;
+}
+
+#about ul li{
+    margin-bottom:3px;
+}
+#about ul li*first-child{
+    margin-bottom:30px;
+}
+
+#about p{
+    text-align:justify;
+}
+/*-------------------------------------
+work
+-------------------------------------*/
+#work ul{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    margin-bottom:50px;
+}
+
+#works ul li{
+    width:31%;
+    margin-bottom:23px;
+}
+#works ul li img{
+    cursor:pointer;
+    width:640px;
+    max-height:417px;
+    transition:all 0.3s;
+}
+
+#works ul li img:hover{
+    transform:scale(1.2,1.2);
+    opacity:0.7;
+}
+
+#header li{
+    font-size:0.8rem;
+    margin-left:20px;
+}
+
+#header li img.icon{
+    width:20px;
+    margin-top:15px;
+}
+
+/* works*/
+#works ul{
+    flex-direction: column;
+}
+
+#works ul li{
+    width:100%;
+}
+
